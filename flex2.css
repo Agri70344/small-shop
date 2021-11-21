@@ -1,0 +1,121 @@
+.all{
+    background-image: url(compss.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}
+.navbar-container{
+    min-height: 100px;
+    background-color: rgb(6, 71, 97);
+    border:2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items{
+    margin: 10px;
+    ;
+}
+.nav-items a{
+    color:white;
+    font-size: 26px;
+    font-weight: bolder;
+
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 1000px;
+    align-content: space-around;
+}
+.product{
+    background-color: rgba(66, 221, 213, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    min-height: 300px;
+    width: 18%;
+    border:2px solid black;
+    margin:5px;
+    transition: ease 0.4s;
+}
+.product .picture{
+    height: 100px;
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.picture{
+    margin: 20px 20px;
+    opacity: 0.8;
+}
+.picture:hover{
+    border-radius: 50px;
+    cursor:no-drop;
+}
+.product:nth-child(1) .picture{
+    background-image: url(ram.jpeg);
+}
+.product:nth-child(2) .picture{
+    background-image: url(cpu.jpeg);
+}
+.product:nth-child(3) .picture{
+    background-image: url(SSD.jpeg);
+}
+.product:nth-child(4) .picture{
+    background-image: url(video.jpeg);
+}
+.product:nth-child(5) .picture{
+    background-image: url(ram2.jpeg);
+}
+.product:nth-child(6) .picture{
+    background-image: url(cpu2.jpeg);
+}
+.product:nth-child(7) .picture{
+    background-image: url(hdd2.jpeg);
+}
+.product:nth-child(8) .picture{
+    background-image: url(video2.jpeg);
+}
+.product .title{
+text-align: center;
+}
+.product .pret{
+text-align: center;
+font-weight: bold;
+}
+
+
+
+.product .button{
+background-color: lightsalmon;
+padding: 10px 20px;
+border:0;
+border-radius: 5px;
+cursor: pointer;
+transition: all 0.3s;
+
+}
+.product button:hover{
+    background-color: white;
+    color: lightseagreen;
+border:2px solid red;
+}
+.product:hover{
+    background-color: rgba(0, 204, 255, 0.7);
+}
+/*.img{
+    width: 50px;
+    height: 50px;
+}
+*/
+.pret:hover{
+    color: red;
+    cursor: grab;
+   
+}
